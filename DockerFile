@@ -1,9 +1,9 @@
-FROM python:3.6.12-alpine3.12
-
+FROM python:3.7-alpine
 COPY . .
 
 RUN pip install -r requirements.txt
-
+#RUN chmod a+x tests.py
+RUN chmod a+x yesterdays_jobs.py
 RUN crontab crontab
 
 CMD ["crond", "-f"]

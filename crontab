@@ -1,2 +1,2 @@
-#run python script every minutes
-* * * * * python /hello.py >> /logfile
+#run python script every day once
+0 0 * * * python /daily_worker.py
