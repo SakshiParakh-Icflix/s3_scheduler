@@ -54,12 +54,12 @@
     Step 7: you can use cloud watch logger to see the events being fired.
     Step 8: deploy and test your code
 
-# untried Approach
+# Untried Approach
     figured that the task could also be done using elasticbeanstalk, 
     but don't have any experience with it       
 
 # Automated Deployment
-    this is we wanted to have continous push and continious deployment through github
+    this is if we wanted to have continous push and continious deployment through github
     add .github folder -> workflows -> docker-image.yaml file
     
     ```
